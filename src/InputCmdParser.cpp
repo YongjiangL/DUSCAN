@@ -7,7 +7,7 @@
 
 #include "InputCmdParser.h"
 
-namespace DUSCAN {
+namespace SCAN {
 
 char *InputCmdParser::getCmdOption(int argc, char *argv[], const string &option) {
 	char **itr = std::find(argv, argv+argc, option);
@@ -20,4 +20,4 @@ bool InputCmdParser::cmdOptionExists(int argc, char *argv[], const string &optio
 	return std::find(argv, argv+argc, option) != argv+argc;
 }
 
-} /* namespace DUSCAN */
+} /* namespace SCAN */

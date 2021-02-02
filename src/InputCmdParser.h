@@ -13,7 +13,7 @@
 
 using namespace std;
 
-namespace DUSCAN {
+namespace SCAN {
 
 class InputCmdParser {
 public:
@@ -21,5 +21,5 @@ public:
 	static bool cmdOptionExists(int argc, char *argv[], const string &option);
 };
 
-} /* namespace DUSCAN */
+} /* namespace SCAN */
 #endif /* INPUTCMDPARSER_H_ */
